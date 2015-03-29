@@ -1,6 +1,6 @@
 # Hybrid Book Design
 
-This repsoitory contains templates for two hybrid book designs released under a **TBD** license. The files can be used as is or addapted to you needs. Commissioned by the Hybrid Publishing LAb at Leuphana University of Lüneburg these designs were created by Torsten Köchlin **LINK**.
+This repsoitory contains templates for two hybrid book designs released under a **TBD** license. The files can be used as is or addapted to your needs. Commissioned by the Hybrid Publishing Lab at Leuphana University of Lüneburg these designs were created by [Torsten Köchlin](http://www.torstenkoechlin.de/).
 
 **GENERAL DESCRIPTION**
 
