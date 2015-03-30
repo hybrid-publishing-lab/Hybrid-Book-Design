@@ -7,29 +7,29 @@ mapped-to: Formatname des InDesign-Zieldokuments.
 Dieses Attribut ist erforderlich und sein Wert kann eine leere Zeichenfolge sein.-->
 	<Style-Mappings>
 		<Paragraph-Style-Mappings>
-			<Mapping style-name="_mp_Abstract" mapped-to="ContentAbstract" />
-			<Mapping style-name="_mp_Author" mapped-to="Front MatterAuthors" />
-			<Mapping style-name="_mp_Blockquote" mapped-to="ContentBlockquotes" />
-			<Mapping style-name="_mp_Body Text" mapped-to="ContentBody Text" />
-			<Mapping style-name="_mp_Caption" mapped-to="ContentCaption" />
+			<Mapping style-name="_Abstract" mapped-to="ContentAbstract" />
+			<Mapping style-name="_Author" mapped-to="Front MatterAuthors" />
+			<Mapping style-name="_Blockquote" mapped-to="ContentBlockquotes" />
+			<Mapping style-name="_Body Text" mapped-to="ContentBody Text" />
+			<Mapping style-name="_Caption" mapped-to="ContentCaption" />
 			<Mapping style-name="Motto" mapped-to="ContentMotto" />
-			<Mapping style-name="_mp_Headline 1" mapped-to="ContentHeadline 1" />
-			<Mapping style-name="_mp_Headline 1 - numeration" mapped-to="ContentHeadline 1 - Chapter Number" />
-			<Mapping style-name="_mp_Headline 2" mapped-to="ContentHeadline 2" />
-			<Mapping style-name="_mp_Headline 3" mapped-to="ContentHeadline 3" />
-			<Mapping style-name="_mp_Headline 4" mapped-to="ContentHeadline 4" />
-			<Mapping style-name="_mp_Interview" mapped-to="ContentInterviews A (with Names)" />
-			<Mapping style-name="_mp_List (bullet points)" mapped-to="ContentBullet List" />
-			<Mapping style-name="_mp_List (numbered)" mapped-to="ContentNumbered List (Automatic Numbering)" />
-			<Mapping style-name="_mp_Motto" mapped-to="ContentMotto" />
-			<Mapping style-name="_mp_References List" mapped-to="ContentReferences" />
-			<Mapping style-name="_mp_section" mapped-to="ContentSection" />
-			<Mapping style-name="_mp_Section" mapped-to="ContentSection" />
-			<Mapping style-name="_mp_Title" mapped-to="Front MatterTitle" />
+			<Mapping style-name="_Headline 1" mapped-to="ContentHeadline 1" />
+			<Mapping style-name="_Headline 1 - numeration" mapped-to="ContentHeadline 1 - Chapter Number" />
+			<Mapping style-name="_Headline 2" mapped-to="ContentHeadline 2" />
+			<Mapping style-name="_Headline 3" mapped-to="ContentHeadline 3" />
+			<Mapping style-name="_Headline 4" mapped-to="ContentHeadline 4" />
+			<Mapping style-name="_Interview" mapped-to="ContentInterviews A (with Names)" />
+			<Mapping style-name="_List (bullet points)" mapped-to="ContentBullet List" />
+			<Mapping style-name="_List (numbered)" mapped-to="ContentNumbered List (Automatic Numbering)" />
+			<Mapping style-name="_Motto" mapped-to="ContentMotto" />
+			<Mapping style-name="_References List" mapped-to="ContentReferences" />
+			<Mapping style-name="_section" mapped-to="ContentSection" />
+			<Mapping style-name="_Section" mapped-to="ContentSection" />
+			<Mapping style-name="_Title" mapped-to="Front MatterTitle" />
 
 
 			<!--In the Indesign Template a new Paragraph Style needs to be created-->
-			<Mapping style-name="_mp_Acknowledgements" mapped-to="[New Paragraph Style]" />
+			<Mapping style-name="_Acknowledgements" mapped-to="[New Paragraph Style]" />
 			
 			<!-- Depending on which lagnuage version you use of Microsoft Word the naming of the follwoing style might differ and needs to be adjusted -->
 			<Mapping style-name="Fußnotentext" mapped-to="ContentFootnote" />
@@ -40,8 +40,8 @@ Dieses Attribut ist erforderlich und sein Wert kann eine leere Zeichenfolge sein
 		</Paragraph-Style-Mappings>
 		
 		<Character-Style-Mappings>
-			<Mapping style-name="_mp-in-text-reference" mapped-to="In Text Reference" />
-			<Mapping style-name="_mp_Italic" mapped-to="Italic" />
+			<Mapping style-name="-in-text-reference" mapped-to="In Text Reference" />
+			<Mapping style-name="_Italic" mapped-to="Italic" />
 
 			<!-- Depending on which lagnuage version you use of Microsoft Word the naming of the following style might differ and needs to be adjusted -->
 			<Mapping style-name="Fußnotenzeichen" mapped-to="Footnote Sign" />
