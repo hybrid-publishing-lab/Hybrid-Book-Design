@@ -1,0 +1,156 @@
+//Small Books
+//
+// Not included: The paragraph styles in the Folder "Front Matter". This content needs to be included manually anyway.
+
+
+
+//Assign character style "Italic" to manual Italics
+
+text	{fontStyle:"Italic"}	{appliedCharacterStyle:"Italic"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+
+//Assign character style "Bold Italic" to manual Bold Italics
+
+text	{fontStyle:"Bold Italic"}	{appliedCharacterStyle:"Bold Italic"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Assign character style "Bold" to manual Bold
+
+text	{fontStyle:"Bold"}	{appliedCharacterStyle:"Bold"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+
+
+//
+//Replace Paragraph Styles with themselves
+//
+
+
+appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item(”09 Action”)
+
+//Replace Paragraph Style "Abstract" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Abstract")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Abstract")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Body Text (FIRST)" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Body Text (FIRST)")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Body Text (FIRST)")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Body Text" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Body Text")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Body Text")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Blockquote" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Blockquote")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Blockquote")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Caption" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Caption")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Caption")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Motto" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Motto")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Motto")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Numbered List (Automatic Numbering)" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Numbered List (Automatic Numbering)")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Numbered List (Automatic Numbering)")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Bullet List" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Bullet List")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Bullet List")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Bullet List Indented" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Bullet List Indented")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Bullet List Indented")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Headline 1 - Chapter Number" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 1 - Chapter Number")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 1 - Chapter Number")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Headline 1" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 1")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 1")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Headline 1 - Author" with itself
+//text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 1 - Author")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 1 - Author")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Headline 2" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 2")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 2")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Headline 3" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 3")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Headline 3")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Healdine 4" with itself
+//text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Healdine 4")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Healdine 4")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Section" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Section")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Section")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Interviews A (with Names)" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Interviews A (with Names)")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Interviews A (with Names)")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Interviews B: Question" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Interviews B: Question")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Interviews B: Question")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Interviews B: Answer" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Interviews B: Answer")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Interviews B: Answer")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Footnote" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Footnote")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Footnote")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Endnote" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Endnote")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("Endnote")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "References" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("References")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("Content").paragraphStyles.item("References")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Manual Numbered List Single Digit" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("MISC").paragraphStyles.item("Manual Numbered List Single Digit")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("MISC").paragraphStyles.item("Manual Numbered List Single Digit")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Manual Numbered List Double Digit" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("MISC").paragraphStyles.item("Manual Numbered List Double Digit")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("MISC").paragraphStyles.item("Manual Numbered List Double Digit")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+//Replace Paragraph Style "Manual Numbered List Triple Digit" with itself
+text	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("MISC").paragraphStyles.item("Manual Numbered List Triple Digit")}	{appliedParagraphStyle: app.activeDocument.paragraphStyleGroups.item("MISC").paragraphStyles.item("Manual Numbered List Triple Digit")}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+
+
+//
+//Replace Character Styles with themselves
+//
+
+//Replace Character Style "Regular" with itself
+text	{appliedCharacterStyle:"Regular"}	{appliedCharacterStyle:"Regular"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Bold" with itself
+text	{appliedCharacterStyle:"Bold"}	{appliedCharacterStyle:"Bold"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Italic" with itself
+text	{appliedCharacterStyle:"Italic"}	{appliedCharacterStyle:"Italic"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Bold Italic" with itself
+text	{appliedCharacterStyle:"Bold Italic"}	{appliedCharacterStyle:"Bold Italic"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "In Text Reference" with itself
+text	{appliedCharacterStyle:"In Text Reference"}	{appliedCharacterStyle:"In Text Reference"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Interview Name" with itself
+text	{appliedCharacterStyle:"Interview Name"}	{appliedCharacterStyle:"Interview Name"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Text Figures" with itself
+text	{appliedCharacterStyle:"Text Figures"}	{appliedCharacterStyle:"Text Figures"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Footnote Sign" with itself
+text	{appliedCharacterStyle:"Footnote Sign"}	{appliedCharacterStyle:"Footnote Sign"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+//Replace Character Style "Bold Italic" with itself
+text	{appliedCharacterStyle:"Bold Italic"}	{appliedCharacterStyle:"Bold Italic"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}	//Kommentar
+
+
+
+
+
+
+
+//Remove double TAB Error in Footnotes
+text	{findWhat:"^t^t", appliedParagraphStyle:"Footnote"}	{changeTo:"^t"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+
+//Remove TAB-Space Error in Footnotes
+text	{findWhat:"^t ", appliedParagraphStyle:"Footnote"}	{changeTo:"^t"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+
+//Remove double TAB Error in Endnotes
+text	{findWhat:"^t^t", appliedParagraphStyle:"Endnote"}	{changeTo:"^t"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}
+
+
+//Remove TAB-Space Error in Endnotes
+text	{findWhat:"^t ", appliedParagraphStyle:"Endnote"}	{changeTo:"^t"}	{includeLockedStoriesForFind:false, includeLockedLayersForFind:false, includeHiddenLayers:false, includeMasterPages:false, includeFootnotes:true, wholeWord:false, caseSensitive:false, kanaSensitive:true, widthSensitive:true, ignoreKashidas:true, ignoreDiacritics:false}

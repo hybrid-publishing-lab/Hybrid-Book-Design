@@ -8,8 +8,8 @@ Dieses Attribut ist erforderlich und sein Wert kann eine leere Zeichenfolge sein
 	<Style-Mappings>
 		<Paragraph-Style-Mappings>
 			<Mapping style-name="_Abstract" mapped-to="ContentAbstract" />
-			<Mapping style-name="_Author" mapped-to="Front MatterAuthors" />
-			<Mapping style-name="_Blockquote" mapped-to="ContentBlockquotes" />
+			<Mapping style-name="_Author" mapped-to="Front MatterAuthor" />
+			<Mapping style-name="_Blockquote" mapped-to="ContentBlockquote" />
 			<Mapping style-name="_Body Text" mapped-to="ContentBody Text" />
 			<Mapping style-name="_Caption" mapped-to="ContentCaption" />
 			<Mapping style-name="Motto" mapped-to="ContentMotto" />
@@ -25,12 +25,11 @@ Dieses Attribut ist erforderlich und sein Wert kann eine leere Zeichenfolge sein
 			<Mapping style-name="_References List" mapped-to="ContentReferences" />
 			<Mapping style-name="_section" mapped-to="ContentSection" />
 			<Mapping style-name="_Section" mapped-to="ContentSection" />
+			<Mapping style-name="_Interview" mapped-to="ContentInterviews A (with Names)" />
 			<Mapping style-name="_Title" mapped-to="Front MatterTitle" />
+			<Mapping style-name="_Acknowledgements" mapped-to="ContentAcknowledgements" />
+			<Mapping style-name="_Keywords" mapped-to="ContentKeywords" />
 
-
-			<!--In the Indesign Template a new Paragraph Style needs to be created-->
-			<Mapping style-name="_Acknowledgements" mapped-to="[New Paragraph Style]" />
-			
 			<!-- Depending on which lagnuage version you use of Microsoft Word the naming of the follwoing style might differ and needs to be adjusted -->
 			<Mapping style-name="Fußnotentext" mapped-to="ContentFootnote" />
 
@@ -40,7 +39,7 @@ Dieses Attribut ist erforderlich und sein Wert kann eine leere Zeichenfolge sein
 		</Paragraph-Style-Mappings>
 		
 		<Character-Style-Mappings>
-			<Mapping style-name="-in-text-reference" mapped-to="In Text Reference" />
+			<Mapping style-name="_mp-in-text-reference" mapped-to="In Text Reference" />
 			<Mapping style-name="_Italic" mapped-to="Italic" />
 
 			<!-- Depending on which lagnuage version you use of Microsoft Word the naming of the following style might differ and needs to be adjusted -->
