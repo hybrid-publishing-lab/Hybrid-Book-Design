@@ -23,7 +23,7 @@ The follwoing manual applies to the import of word files that are based on the t
 
 Alternatively the Open Office template can be used for wirting the manuscript. However, you might need to safe the final manuscript as .docx before importing. Please refer to the style guide for further information on how to use the template and setting up the document. 
 
-##Preparing InDesign for Importing Manuscripts into InDesign
+## Preparing InDesign for Importing Manuscripts into InDesign
 
 Adobe Indesign allows it's users to place files within a document (Menu: File/Place, Mac Shotcut: cmd +D). Usually this is used to insert  image files in a design. However text files can be placed as well. When doing this Indesign offers it's users to define their import preferences. Here is where the magic happens because paragraph and character styles used in the Word file can be mapped onto predefined paragraph and character styles of Indesign. Even though this mapping does not work properly in every instance it's a powerful tool to produce a book based on a word document. Some common error can be removed using Indesign Scripts automating the removal of these import errors.
 
