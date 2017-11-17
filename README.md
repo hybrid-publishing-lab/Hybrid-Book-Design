@@ -2,7 +2,7 @@
 
 This repsoitory contains templates for two hybrid book designs released under a [»Creative Commons CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) International« license. The files can be used as is or addapted to your needs. Commissioned by the Hybrid Publishing Lab at Leuphana University of Lüneburg these designs were created by [Torsten Köchlin](http://www.torstenkoechlin.de/).
 
-##GENERAL DESCRIPTION
+## GENERAL DESCRIPTION
 
 The book designs were created for the purposes of scholarly book publishing in the humanities and adjacent disciplines. They are hybid since they provide a strong and coherent visual identity for both fixed/page based layouts traditionally used in print design as well as reflowable layouts employed in HTML and EBooks.
 
@@ -54,9 +54,9 @@ Once you installed the word import presets you can easily import Microsoft Word 
 4. Place the text on the page. 
 
 
-##Creating you Book Cover
+## Creating you Book Cover
 
 In addition to the InDesign IDML files for the book layout this repository contains cover templated for both book sizes. The design is based upon the idea that book covers do not have to convey the author and title information in the digital realm. Rather they commonly serve as thumbnails. Instead of printing the full title or full author name on the cover the design template is set up for printing including just keywords on the front cover. 
 
-##License
+## License
 The design templates and the accompanying materials are licensed under [»Creative Commons CC-BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) International«.
